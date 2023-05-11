@@ -7,9 +7,8 @@
       "kubernetes": {
         "usages": [
             "signing",
-            "key encipherment",
-            "server auth",
-            "client auth"
+            "key encipherment
+      
         ],
         "expiry": "87600h"
       }
