@@ -11,9 +11,7 @@ ExecStart={{BIN_PATH}}/kube-apiserver \
   --service-node-port-range=20000-40000 \
   --etcd-servers={{ETCD_ENDPOINTS}} \
   --enable-swagger-ui=true \
-  --allow-privileged=true \
-  --audit-log-maxage=30 \
-  --audit-log-maxbackup=3 \
+ \
   --audit-log-maxsize=100 \
   --audit-log-path=/var/lib/audit.log \
   --event-ttl=1h \
