@@ -10,7 +10,5 @@ http://localhost:9999
 ```
 #### 填写uuid
 <img src="../images/jenkins-001.PNG" width="60%" height="60%" />
-#### 选择安装方式
-<img src="../images/jenkins-002.PNG" width="60%" height="60%" /> 
 #### 选择插件
 <img src="../images/jenkins-003.PNG" width="60%" height="60%" />
