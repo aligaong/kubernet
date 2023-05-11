@@ -12,13 +12,6 @@ spec:
   selector:
     app: course-service
   type: ClusterIP
----
-apiVersion: apps/v1beta1
-kind: Deployment
-
-  template:
-    metadata:
-      labels:
         app: course-service
     spec:
       containers:
