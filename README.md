@@ -16,9 +16,6 @@ yum install -y docker-selinux                         --安装 docker-selinux
 
 yum install -y docker-engine                          --安装 docker-engine
 
-systemctl enable docker.service                       --设置 docker 开机服务启动
-```
-### 2，Docker配置和使用
 ```bash
 docker info                                           --查看 docker 相关信息
 
