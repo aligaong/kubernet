@@ -13,8 +13,6 @@ function replace_files() {
             sed -i "s/{{$key}}/${value}/g" $file
         done
         return 0
-    fi
-    if [ -d $file ];then
         for f in `ls $file`
         do
             replace_files "${file}/${f}"
