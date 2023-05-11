@@ -8,12 +8,7 @@ spec:
   ports:
   - port: 8081
     protocol: TCP
-    targetPort: 8081
-  selector:
-    app: course-service
-  type: ClusterIP
-        app: course-service
-    spec:
+    targetPort: 8
       containers:
       - name: course-service
         image: {{HUB}}/micro-service/course-service:latest
