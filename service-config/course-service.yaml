@@ -5,12 +5,7 @@ metadata:
     app: course-service
   name: course-service
 spec:
-  ports:
-  - port: 8081
-    protocol: TCP
-    targetPort: 8
-      containers:
-      - name: course-service
+  por
         image: {{HUB}}/micro-service/course-service:latest
         ports:
         - containerPort: 20880
